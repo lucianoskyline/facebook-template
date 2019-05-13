@@ -1,0 +1,58 @@
+.fc-navbar{
+    background-color: #4267b2;
+    border-bottom: 1px solid #29487d;
+    color: #fff;
+    padding-left: 14%;
+    padding-right: 14%;
+    height: 43px;
+}
+
+body{
+    background-color: #e9ebee;
+    color: #1d2129;
+}
+
+.fc-list-group-item{
+    background-color: #e9ebee;
+    border: none;
+    font-size: 14px;
+    padding: 6px;
+}
+
+.fc-label{
+    color: #616770;
+    display: block;
+    white-space: nowrap;
+    width: 0;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.fc-search-top{
+    height: 23px;
+    border-radius: 2px;
+}
+
+.fc-search-btn{
+    height: 23px;
+}
+
+.fc-nav-link{
+    font-size: 14px;
+    color: white !important;
+}
+
+.fc-input-group-navbar{
+    margin-top: 10px;
+    width: 46%;
+}
+
+.fc-icon {
+    height:23px;
+    width:23px;
+    background-image:url('icons.png');
+}
+
+.fc-icon-messenger {
+    background-position: 37px -367px;
+}
