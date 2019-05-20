@@ -2,7 +2,7 @@
     background-color: #4267b2;
     border-bottom: 1px solid #29487d;
     color: #fff;
-    padding-left: 14%;
+    padding-left: 12%;
     padding-right: 14%;
     height: 43px;
 }
@@ -48,11 +48,88 @@ body{
 }
 
 .fc-icon {
-    height:23px;
-    width:23px;
+    height:22px;
+    width:22px;
     background-image:url('icons.png');
 }
 
 .fc-icon-messenger {
     background-position: 37px -367px;
+}
+
+.fc-icon-feeds {
+    background-position: 142px -496px;
+}
+
+.fc-icon-watch {
+    background-position: 142px -559px;
+}
+
+.fc-icon-marketplace {
+    background-position: 316px -474px;
+}
+
+.fc-icon-lembrancas {
+    background-position: 218px -496px;
+}
+
+.fc-icon-salvos {
+    background-position: 316px -391px;
+}
+
+.fc-icon-grupos {
+    background-position: 80px -367px;
+}
+
+.fc-icon-paginas {
+    background-position: 400px -391px;
+}
+
+.fc-icon-eventos {
+    background-position: 337px -412px;
+}
+
+.fc-icon-navbar {
+    height:22px;
+    width:26px;
+    background-image:url('icons.png');
+    opacity: 0.6;
+}
+
+.fc-icon-logo-facebook {
+    background-position: 257px -220px;
+    opacity: 1;
+}
+
+.fc-icon-notificao-amizade {
+    background-position: 141px -193px;;
+}
+
+.fc-icon-notificao-amizade:active {
+    background-position: 116px -193px;
+    opacity: 1.0;
+}
+
+.fc-icon span{
+    margin-left: 28px;
+    font-size: 13px;
+}
+
+.fc-dropdown{
+    right: 0;
+    left: auto;
+    padding-left: 1px;
+    padding-right: 1px;
+    min-width: 450px;
+}
+
+.fc-dropdown .title{
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.fc-dropdown a{
+    font-size: 12px;
+    text-align: right;
 }
