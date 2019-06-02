@@ -38,7 +38,7 @@ body{
 }
 
 .fc-nav-link{
-    font-size: 14px;
+    font-size: 13px;
     color: white !important;
 }
 
@@ -96,6 +96,13 @@ body{
     opacity: 0.6;
 }
 
+.fc-icon-dropdown {
+    height: 18px;
+    width: 18px;
+    background-image: url(icons.png);
+    opacity: 0.6;
+}
+
 .fc-icon-logo-facebook {
     background-position: 257px -220px;
     opacity: 1;
@@ -108,6 +115,66 @@ body{
 .fc-icon-notificao-amizade:active {
     background-position: 116px -193px;
     opacity: 1.0;
+}
+
+.fc-icon-notificao-messenger {
+    background-position: 115px -320px;
+}
+
+.fc-icon-notificao-messenger:active {
+    background-position: 139px -320px;
+    opacity: 1.0;
+}
+
+.fc-icon-notificao-notificacoes {
+    background-position: 139px -296px;
+}
+
+.fc-icon-notificao-notificacoes:active {
+    background-position: 321px -269px;
+    opacity: 1.0;
+}
+
+.fc-icon-notificao-ajuda {
+    background-position: 66px -320px;
+}
+
+.fc-icon-notificao-ajuda:active {
+    background-position: 92px -320px;
+    opacity: 1.0;
+}
+
+.fc-icon-notificao-mais {
+    background-position: 94px -296px
+}
+
+.fc-icon-notificao-mais:active {
+    background-position: 117px -296px;
+    opacity: 1.0;
+}
+
+.fc-icon-verificacao-privacidade {
+    background-position: 39px -716px;
+}
+
+.fc-icon-privacidade {
+    background-position: 1px -734px;
+}
+
+.fc-icon-foto-video {
+    background-position: 142px -517px;
+}
+
+.fc-icon-marcar-amigos {
+    background-position: 57px -454px;
+}
+
+.fc-icon-sentimentos {
+    background-position: 120px -454px;
+}
+
+.fc-icon-mais{
+    background-position: 36px -601px;
 }
 
 .fc-icon span{
@@ -123,6 +190,14 @@ body{
     min-width: 450px;
 }
 
+.fc-dropdown-secondary{
+    right: 0;
+    left: auto;
+    padding-left: 1px;
+    padding-right: 1px;
+    min-width: 240px;
+}
+
 .fc-dropdown .title{
     font-size: 12px;
     margin-left: 5px;
@@ -132,4 +207,104 @@ body{
 .fc-dropdown a{
     font-size: 12px;
     text-align: right;
+}
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.fc-card-header {
+    padding: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4b4f56;
+}
+
+.fc-card-header-secondary {
+    padding: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4b4f56;
+    background-color: #fff;
+}
+
+textarea{
+    border: none !important;
+}
+
+.fc-btn{
+    border-radius: 2px;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    padding: 0 8px;
+}
+
+.fc-btn-default{
+    background-color: #f5f6f7;
+    border-color: #ccd0d5;
+    color: #4b4f56;
+}
+
+.fc-btn-rounded{
+    background-color: #f5f6f7;
+    border: none;
+    color: #4b4f56;
+    border-radius: 20px;
+    width: 129px;
+    height: 30px;
+}
+
+.fc-icon label{
+    margin-left: 18px;
+    margin-top: 2px;
+    width: 100px;
+}
+
+.fc-btn-primary{
+    background-color: #4267b2;
+    border-color: #29487d;
+    color: #fff;
+}
+
+a {
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+span{
+    color: #606770;
+    font-size: 12px;
+}
+
+.mr-auto {
+    margin-right: auto!important;
+    position: absolute;
+    right: 154px;
+}
+
+.fc-dropdown-item:hover{
+    background-color: #4267b2;
+    color: #fff;
+}
+
+.fc-form-control{
+    width: 90%;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.form-control{
+    font-size: 12px;
+}
+
+.fc-label-item{
+    color: #212529;
+    font-size: 12px;
+    margin-left: 28px;
+    margin-top: 3px;
 }
