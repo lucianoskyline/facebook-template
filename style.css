@@ -177,6 +177,14 @@ body{
     background-position: 36px -601px;
 }
 
+.fc-icon-comentar {
+    background-position: 57px -642px;
+}
+
+.fc-icon-compartilhar {
+    background-position: 1px -662px;
+}
+
 .fc-icon span{
     margin-left: 28px;
     font-size: 13px;
@@ -243,6 +251,12 @@ textarea{
 .fc-btn-default{
     background-color: #f5f6f7;
     border-color: #ccd0d5;
+    color: #4b4f56;
+}
+
+.fc-btn-white{
+    background-color: #fff;
+    border: none;
     color: #4b4f56;
 }
 
