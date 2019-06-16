@@ -1,0 +1,358 @@
+
+
+.fc-navbar{
+    background-color: #3b5998;
+  /*  border-bottom: 1px solid #29487d; */
+    color: #fff;
+  /*  padding-left: 12%;
+    padding-right: 14%;*/
+    height: 48px;
+}
+
+.form-control{
+    border-radius: 1.25rem;
+}
+
+body{
+    background-color: #e9ebee;
+    color: #1d2129;
+}
+
+.fc-container{
+    background-color: white;
+}
+
+.fc-list-group-item{
+    background-color: #e9ebee;
+    border: none;
+    font-size: 14px;
+    padding: 6px;
+}
+
+.fc-label{
+    color: #616770;
+    display: block;
+    white-space: nowrap;
+    width: 0;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.fc-search-top{
+    height: 23px;
+    border-radius: 2px;
+}
+
+.fc-search-btn{
+    height: 23px;
+}
+
+.fc-nav-link{
+    font-size: 13px;
+    color: white !important;
+}
+
+.fc-input-group-navbar{
+    margin-top: 10px;
+    width: 46%;
+}
+
+.fc-icon {
+    height:22px;
+    width:22px;
+    background-image:url('icons.png');
+}
+
+.fc-icon-home {
+    background-position: 2px 358px;
+}
+
+.fc-icon-amigos {
+    background-position: 2px 750px;
+}
+
+.fc-icon-messenger {
+    background-position: 2px 1072px;
+}
+
+.fc-icon-notificacoes {
+    background-position: 2px 934px;
+}
+
+.fc-icon-pesquisar {
+    background-position: 2px 634px;
+}
+
+.fc-icon-menu {
+    background-position: 2px 473px;
+}
+
+.fc-icon-feeds {
+    background-position: 142px -496px;
+}
+
+.fc-icon-watch {
+    background-position: 142px -559px;
+}
+
+.fc-icon-marketplace {
+    background-position: 316px -474px;
+}
+
+.fc-icon-lembrancas {
+    background-position: 218px -496px;
+}
+
+.fc-icon-salvos {
+    background-position: 316px -391px;
+}
+
+.fc-icon-grupos {
+    background-position: 80px -367px;
+}
+
+.fc-icon-paginas {
+    background-position: 400px -391px;
+}
+
+.fc-icon-eventos {
+    background-position: 337px -412px;
+}
+
+.fc-icon-navbar {
+    height:24px;
+    width:24px;
+    background-image:url('icons.png');
+}
+
+.fc-icon-dropdown {
+    height: 18px;
+    width: 18px;
+    background-image: url(icons.png);
+    opacity: 0.6;
+}
+
+.fc-icon-logo-facebook {
+    background-position: 257px -220px;
+    opacity: 1;
+}
+
+.fc-icon-notificao-amizade {
+    background-position: 2px 750px;
+}
+
+.fc-icon-notificao-amizade:active {
+    background-position: 116px -193px;
+    opacity: 1.0;
+}
+
+.fc-icon-notificao-messenger {
+    background-position: 115px -320px;
+}
+
+.fc-icon-notificao-messenger:active {
+    background-position: 139px -320px;
+    opacity: 1.0;
+}
+
+.fc-icon-notificao-notificacoes {
+    background-position: 139px -296px;
+}
+
+.fc-icon-notificao-notificacoes:active {
+    background-position: 321px -269px;
+    opacity: 1.0;
+}
+
+.fc-icon-notificao-ajuda {
+    background-position: 66px -320px;
+}
+
+.fc-icon-notificao-ajuda:active {
+    background-position: 92px -320px;
+    opacity: 1.0;
+}
+
+.fc-icon-notificao-mais {
+    background-position: 94px -296px
+}
+
+.fc-icon-notificao-mais:active {
+    background-position: 117px -296px;
+    opacity: 1.0;
+}
+
+.fc-icon-verificacao-privacidade {
+    background-position: 39px -716px;
+}
+
+.fc-icon-privacidade {
+    background-position: 1px -734px;
+}
+
+.fc-icon-foto-video {
+    background-position: 142px -517px;
+}
+
+.fc-icon-marcar-amigos {
+    background-position: 57px -454px;
+}
+
+.fc-icon-sentimentos {
+    background-position: 120px -454px;
+}
+
+.fc-icon-mais{
+    background-position: 36px -601px;
+}
+
+.fc-icon-comentar {
+    background-position: 57px -642px;
+}
+
+.fc-icon-compartilhar {
+    background-position: 1px -662px;
+}
+
+.fc-icon span{
+    margin-left: 28px;
+    font-size: 13px;
+}
+
+.fc-dropdown{
+    right: 0;
+    left: auto;
+    padding-left: 1px;
+    padding-right: 1px;
+    min-width: 450px;
+}
+
+.fc-dropdown-secondary{
+    right: 0;
+    left: auto;
+    padding-left: 1px;
+    padding-right: 1px;
+    min-width: 240px;
+}
+
+.fc-dropdown .title{
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.fc-dropdown a{
+    font-size: 12px;
+    text-align: right;
+}
+
+.card-header:first-child {
+    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
+}
+
+.fc-card{
+    background-color: white;
+}
+
+.fc-card-header {
+    padding: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4b4f56;
+}
+
+.fc-card-header-secondary {
+    padding: 7px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #4b4f56;
+    background-color: #fff;
+}
+
+textarea{
+    border: none !important;
+}
+
+.fc-btn{
+    border-radius: 2px;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    padding: 0 8px;
+    height: 28px;
+
+}
+
+.fc-btn-default{
+    background-color: white;
+    border-color: #8d949e;
+    color: #4b4f56;
+}
+
+.fc-btn-white{
+    background-color: #fff;
+    border: none;
+    color: #4b4f56;
+}
+
+.fc-btn-rounded{
+    background-color: #f5f6f7;
+    border: none;
+    color: #4b4f56;
+    border-radius: 20px;
+    width: 129px;
+    height: 30px;
+}
+
+.fc-icon label{
+    margin-left: 18px;
+    margin-top: 2px;
+    width: 100px;
+}
+
+.fc-btn-primary{
+    background-color: #4080ff;
+    border-color: #4080ff;
+    color: #fff;    
+}
+
+a {
+    color: #385898;
+    cursor: pointer;
+    text-decoration: none;
+   /* font-size: 12px; */
+}
+
+span{
+    color: #606770;
+    font-size: 12px;
+}
+
+.mr-auto {
+    margin-right: auto!important;
+    position: absolute;
+    right: 154px;
+}
+
+.fc-dropdown-item:hover{
+    background-color: #4267b2;
+    color: #fff;
+}
+
+.fc-form-control{
+    width: 90%;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    margin: 10px;
+    font-size: 12px;
+}
+
+.form-control{
+    font-size: 12px;
+}
+
+.fc-label-item{
+    color: #212529;
+    font-size: 12px;
+    margin-left: 28px;
+    margin-top: 3px;
+}
